@@ -1,0 +1,80 @@
+# TOMDAR-MEBLE - konfiguracja Apache (hosting klienta). Na GitHub Pages ten plik nie jest używany.
+
+Options -Indexes
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+AddDefaultCharset utf-8
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# 1. HTTPS i adres bez www.
+#    ODKOMENTUJ dwa poniższe bloki DOPIERO, gdy certyfikat SSL dla tomdar-meble.pl i www.tomdar-meble.pl działa
+#    (inaczej przeglądarki pokażą ostrzeżenie). Do tego czasu działa tylko przekierowanie www -> bez www po http.
+# RewriteCond %{HTTPS} !=on
+# RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+# RewriteRule ^(.*)$ https://tomdar-meble.pl/$1 [R=301,L]
+# RewriteCond %{HTTP_HOST} ^www\. [NC]
+# RewriteRule ^(.*)$ https://tomdar-meble.pl/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^www\.tomdar-meble\.pl$ [NC]
+RewriteRule ^(.*)$ http://tomdar-meble.pl/$1 [R=301,L]
+
+# 2. Katalog liczników i sekretu formularza niedostępny z sieci
+RewriteRule ^_limity(/|$) - [F,L]
+
+# 3. Stare adresy Quick.Cms 5.4 -> nowe podstrony (Quick.Cms: /?nazwa,ID oraz /index.php?nazwa,ID)
+RewriteCond %{QUERY_STRING} ^(o-nas|onas|start|strona-glowna),?[0-9]*(&.*)?$ [NC]
+RewriteRule ^(index\.php)?$ /? [R=301,L]
+RewriteCond %{QUERY_STRING} ^oferta(,[0-9]+)?(&.*)?$ [NC]
+RewriteRule ^(index\.php)?$ /oferta/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^(galeria|realizacje)(,[0-9]+)?(&.*)?$ [NC]
+RewriteRule ^(index\.php)?$ /realizacje/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^(kontakt|wycena)(,[0-9]+)?(&.*)?$ [NC]
+RewriteRule ^(index\.php)?$ /kontakt/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^(polityka|polityka-prywatnosci|cookies)(,[0-9]+)?(&.*)?$ [NC]
+RewriteRule ^(index\.php)?$ /polityka-prywatnosci/? [R=301,L]
+# pozostałe adresy Quick.Cms: ?coś,ID  ?sLang=pl  ?p=...  -> strona główna
+RewriteCond %{QUERY_STRING} ^([a-z0-9_-]+,[0-9]+|sLang=[a-z]+|p=.*)(&.*)?$ [NC]
+RewriteRule ^(index\.php)?$ /? [R=301,L]
+RewriteRule ^index\.php$ / [R=301,L]
+
+# 4. Bez końcowego ukośnika -> z ukośnikiem
+RewriteRule ^(oferta|realizacje|o-nas|kontakt|polityka-prywatnosci)$ /$1/ [R=301,L]
+RewriteRule ^(galeria|o_nas|onas)/?$ /realizacje/ [R=301,L]
+
+# 5. Stare zdjęcia i pliki szablonu Quick.Cms (linki z Google Grafika) -> galeria realizacji
+RewriteRule ^files/ /realizacje/ [R=301,L,NC]
+RewriteRule ^images/banner[0-9]*\.jpg$ /realizacje/ [R=301,L,NC]
+RewriteRule ^(templates|dist|plugins|core|database|lang|admin\.php)(/.*)?$ - [G,L,NC]
+RewriteRule ^favicon\.png$ /favicon.svg [R=301,L]
+</IfModule>
+
+# 6. Nagłówki bezpieczeństwa
+<IfModule mod_headers.c>
+Header always set X-Content-Type-Options "nosniff"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+Header always set X-Frame-Options "SAMEORIGIN"
+Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), interest-cohort=()"
+# Po włączeniu SSL można dodać: Header always set Strict-Transport-Security "max-age=31536000"
+</IfModule>
+
+# 7. Pamięć podręczna przeglądarki i kompresja
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/webp "access plus 1 year"
+ExpiresByType image/jpeg "access plus 1 year"
+ExpiresByType image/png "access plus 1 year"
+ExpiresByType image/x-icon "access plus 1 year"
+ExpiresByType image/svg+xml "access plus 1 month"
+ExpiresByType font/woff2 "access plus 1 year"
+ExpiresByType text/css "access plus 1 month"
+ExpiresByType application/javascript "access plus 1 month"
+ExpiresByType text/html "access plus 0 seconds"
+</IfModule>
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html text/css application/javascript image/svg+xml application/xml text/plain application/json
+</IfModule>
+AddType font/woff2 .woff2
+AddType image/webp .webp
+AddType application/javascript .js
+AddCharset utf-8 .txt .xml .css .js

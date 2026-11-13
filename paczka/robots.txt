@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /wyslij.php
+Disallow: /_limity/
+
+Sitemap: https://tomdar-meble.pl/sitemap.xml

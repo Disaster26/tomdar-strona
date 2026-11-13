@@ -1,0 +1,789 @@
+{
+ "kuchnie": {
+  "nazwa": "Kuchnie na wymiar",
+  "zdjecia": [
+   {
+    "src": "kuchnie-01.webp",
+    "w": 1600,
+    "h": 797,
+    "alt": "Kuchnia z frontami ramowymi w drewnie i bieli, czarny blat i szklany panel",
+    "maly": false,
+    "zrodlo": "081",
+    "data_odcieta": false
+   },
+   {
+    "src": "kuchnie-02.webp",
+    "w": 900,
+    "h": 661,
+    "alt": "Otwarta kuchnia z wyspą i zabudową w salonie, łukowa wnęka nad zabudową",
+    "maly": false,
+    "zrodlo": "000",
+    "data_odcieta": false
+   },
+   {
+    "src": "kuchnie-03.webp",
+    "w": 900,
+    "h": 675,
+    "alt": "Wyspa kuchenna z hokerami i chłodziarką do wina, zabudowa przy drzwiach",
+    "maly": false,
+    "zrodlo": "004",
+    "data_odcieta": false
+   },
+   {
+    "src": "kuchnie-04.webp",
+    "w": 657,
+    "h": 878,
+    "alt": "Biały blat wyspy z chłodziarką do wina w podstawie",
+    "maly": false,
+    "zrodlo": "003",
+    "data_odcieta": false
+   },
+   {
+    "src": "kuchnie-05.webp",
+    "w": 659,
+    "h": 878,
+    "alt": "Wysuwane szuflady wyspy kuchennej z organizerami",
+    "maly": false,
+    "zrodlo": "005",
+    "data_odcieta": false
+   },
+   {
+    "src": "kuchnie-06.webp",
+    "w": 800,
+    "h": 600,
+    "alt": "Kuchnia z wyspą w okładzinie o fakturze kamienia, wysoka zabudowa z lodówką",
+    "maly": false,
+    "zrodlo": "054",
+    "data_odcieta": false
+   },
+   {
+    "src": "kuchnie-07.webp",
+    "w": 800,
+    "h": 600,
+    "alt": "Ciemna wyspa kuchenna z czarnym blatem przy ceglanej ścianie",
+    "maly": false,
+    "zrodlo": "055",
+    "data_odcieta": false
+   },
+   {
+    "src": "kuchnie-08.webp",
+    "w": 800,
+    "h": 600,
+    "alt": "Narożnik wyspy kuchennej w okładzinie imitującej kamień",
+    "maly": false,
+    "zrodlo": "056",
+    "data_odcieta": false
+   },
+   {
+    "src": "kuchnie-09.webp",
+    "w": 800,
+    "h": 449,
+    "alt": "Biała kuchnia z wyspą i wysoką zabudową z piekarnikami",
+    "maly": false,
+    "zrodlo": "012",
+    "data_odcieta": false
+   },
+   {
+    "src": "kuchnie-10.webp",
+    "w": 448,
+    "h": 800,
+    "alt": "Biała wyspa z czarnym blatem i szufladami",
+    "maly": false,
+    "zrodlo": "013",
+    "data_odcieta": false
+   },
+   {
+    "src": "kuchnie-11.webp",
+    "w": 800,
+    "h": 464,
+    "alt": "Kuchnia w kształcie litery L z frontami ramowymi w drewnie",
+    "maly": false,
+    "zrodlo": "041",
+    "data_odcieta": true
+   },
+   {
+    "src": "kuchnie-12.webp",
+    "w": 533,
+    "h": 720,
+    "alt": "Wysokie szafy kuchenne z frontami ramowymi w drewnie i bieli",
+    "maly": false,
+    "zrodlo": "042",
+    "data_odcieta": true
+   },
+   {
+    "src": "kuchnie-13.webp",
+    "w": 800,
+    "h": 464,
+    "alt": "Wysoka zabudowa z lodówką side by side i piekarnikami w czerni",
+    "maly": false,
+    "zrodlo": "044",
+    "data_odcieta": true
+   },
+   {
+    "src": "kuchnie-14.webp",
+    "w": 533,
+    "h": 720,
+    "alt": "Zabudowa kuchenna z lodówką i okrągłym czarnym stołem",
+    "maly": false,
+    "zrodlo": "043",
+    "data_odcieta": true
+   },
+   {
+    "src": "kuchnie-15.webp",
+    "w": 600,
+    "h": 800,
+    "alt": "Zabudowa kuchenna pod oknem z czarnym blatem i frontami ramowymi",
+    "maly": false,
+    "zrodlo": "063",
+    "data_odcieta": false
+   },
+   {
+    "src": "kuchnie-16.webp",
+    "w": 660,
+    "h": 800,
+    "alt": "Klasyczna biała kuchnia z kamiennym blatem i łukowymi oknami",
+    "maly": false,
+    "zrodlo": "046",
+    "data_odcieta": false
+   },
+   {
+    "src": "kuchnie-17.webp",
+    "w": 800,
+    "h": 464,
+    "alt": "Szuflady z drewnianymi przegródkami w klasycznej kuchni",
+    "maly": false,
+    "zrodlo": "053",
+    "data_odcieta": true
+   },
+   {
+    "src": "kuchnie-18.webp",
+    "w": 800,
+    "h": 464,
+    "alt": "Wysuwany kamienny blat roboczy w klasycznej zabudowie",
+    "maly": false,
+    "zrodlo": "060",
+    "data_odcieta": true
+   },
+   {
+    "src": "kuchnie-19.webp",
+    "w": 800,
+    "h": 450,
+    "alt": "Biała zabudowa kuchenna pod oknem z drewnianym blatem",
+    "maly": false,
+    "zrodlo": "038",
+    "data_odcieta": false
+   }
+  ]
+ },
+ "szafy": {
+  "nazwa": "Szafy, garderoby i zabudowy",
+  "zdjecia": [
+   {
+    "src": "szafy-01.webp",
+    "w": 600,
+    "h": 800,
+    "alt": "Szafa pod skosem z podświetlonym wnętrzem i szufladami",
+    "maly": false,
+    "zrodlo": "067",
+    "data_odcieta": false
+   },
+   {
+    "src": "szafy-02.webp",
+    "w": 600,
+    "h": 800,
+    "alt": "Garderoba pod skosem z drążkiem i oświetleniem LED",
+    "maly": false,
+    "zrodlo": "068",
+    "data_odcieta": false
+   },
+   {
+    "src": "szafy-03.webp",
+    "w": 600,
+    "h": 800,
+    "alt": "Szafa pod skosem z półkami na ubrania i podświetleniem",
+    "maly": false,
+    "zrodlo": "069",
+    "data_odcieta": false
+   },
+   {
+    "src": "szafy-04.webp",
+    "w": 600,
+    "h": 800,
+    "alt": "Wysoka szafa w przedpokoju z tapicerowanym siedziskiem",
+    "maly": false,
+    "zrodlo": "066",
+    "data_odcieta": false
+   },
+   {
+    "src": "szafy-05.webp",
+    "w": 533,
+    "h": 720,
+    "alt": "Wnęka z tapicerowanym siedziskiem i szafą w przedpokoju",
+    "maly": false,
+    "zrodlo": "052",
+    "data_odcieta": true
+   },
+   {
+    "src": "szafy-06.webp",
+    "w": 533,
+    "h": 720,
+    "alt": "Szafa wnękowa pod skosem z czarnymi uchwytami",
+    "maly": false,
+    "zrodlo": "051",
+    "data_odcieta": true
+   },
+   {
+    "src": "szafy-07.webp",
+    "w": 800,
+    "h": 737,
+    "alt": "Szafa w zabudowie pod schodami w jasnym dekorze drewna",
+    "maly": false,
+    "zrodlo": "057",
+    "data_odcieta": false
+   },
+   {
+    "src": "szafy-08.webp",
+    "w": 600,
+    "h": 800,
+    "alt": "Garderoba z półkami i drążkami w dekorze drewna",
+    "maly": false,
+    "zrodlo": "079",
+    "data_odcieta": false
+   },
+   {
+    "src": "szafy-09.webp",
+    "w": 600,
+    "h": 800,
+    "alt": "Otwarta garderoba z półkami i drążkami w fornirze",
+    "maly": false,
+    "zrodlo": "080",
+    "data_odcieta": false
+   },
+   {
+    "src": "szafy-10.webp",
+    "w": 600,
+    "h": 800,
+    "alt": "Szafa z drzwiami przesuwnymi i półkami obok",
+    "maly": false,
+    "zrodlo": "037",
+    "data_odcieta": false
+   },
+   {
+    "src": "szafy-11.webp",
+    "w": 657,
+    "h": 878,
+    "alt": "Szafa w przedpokoju z otwartą wnęką i lustrem",
+    "maly": false,
+    "zrodlo": "001",
+    "data_odcieta": false
+   },
+   {
+    "src": "szafy-12.webp",
+    "w": 600,
+    "h": 800,
+    "alt": "Szafa pod skosem w szarym wykończeniu o fakturze betonu",
+    "maly": false,
+    "zrodlo": "029",
+    "data_odcieta": false
+   },
+   {
+    "src": "szafy-13.webp",
+    "w": 800,
+    "h": 600,
+    "alt": "Uchwyty w kształcie dłoni na szarych frontach szafy",
+    "maly": false,
+    "zrodlo": "030",
+    "data_odcieta": false
+   },
+   {
+    "src": "szafy-14.webp",
+    "w": 600,
+    "h": 800,
+    "alt": "Szuflady z mosiężnymi uchwytami w kształcie dłoni",
+    "maly": false,
+    "zrodlo": "031",
+    "data_odcieta": false
+   },
+   {
+    "src": "szafy-15.webp",
+    "w": 600,
+    "h": 800,
+    "alt": "Szafa pod skosem w jasnym, patynowanym wykończeniu",
+    "maly": false,
+    "zrodlo": "034",
+    "data_odcieta": false
+   },
+   {
+    "src": "szafy-16.webp",
+    "w": 600,
+    "h": 800,
+    "alt": "Fragment zabudowy pod skosem z komodą",
+    "maly": false,
+    "zrodlo": "035",
+    "data_odcieta": false
+   },
+   {
+    "src": "szafy-17.webp",
+    "w": 600,
+    "h": 800,
+    "alt": "Rzeźbiony uchwyt na jasnym froncie szafy",
+    "maly": false,
+    "zrodlo": "036",
+    "data_odcieta": false
+   }
+  ]
+ },
+ "salon": {
+  "nazwa": "Zabudowy salonu i RTV",
+  "zdjecia": [
+   {
+    "src": "salon-01.webp",
+    "w": 900,
+    "h": 675,
+    "alt": "Ściana TV z płytą o wzorze kamienia, niska szafka i podświetlona witryna",
+    "maly": false,
+    "zrodlo": "006",
+    "data_odcieta": false
+   },
+   {
+    "src": "salon-02.webp",
+    "w": 800,
+    "h": 464,
+    "alt": "Klasyczna zabudowa salonu z witryną i półkami w drewnie",
+    "maly": false,
+    "zrodlo": "064",
+    "data_odcieta": true
+   },
+   {
+    "src": "salon-03.webp",
+    "w": 800,
+    "h": 536,
+    "alt": "Klasyczna biała zabudowa z telewizorem we wnęce",
+    "maly": false,
+    "zrodlo": "070",
+    "data_odcieta": false
+   },
+   {
+    "src": "salon-04.webp",
+    "w": 800,
+    "h": 536,
+    "alt": "Biała zabudowa z ukrytym telewizorem i drewnianą wnęką",
+    "maly": false,
+    "zrodlo": "071",
+    "data_odcieta": false
+   },
+   {
+    "src": "salon-05.webp",
+    "w": 640,
+    "h": 480,
+    "alt": "Biała zabudowa ściany z telewizorem i półkami",
+    "maly": false,
+    "zrodlo": "074",
+    "data_odcieta": false
+   },
+   {
+    "src": "salon-06.webp",
+    "w": 800,
+    "h": 449,
+    "alt": "Ściana z frontów w fornirze z wnęką na telewizor",
+    "maly": false,
+    "zrodlo": "076",
+    "data_odcieta": false
+   },
+   {
+    "src": "salon-07.webp",
+    "w": 800,
+    "h": 600,
+    "alt": "Długa biała szafka RTV z szufladami",
+    "maly": false,
+    "zrodlo": "065",
+    "data_odcieta": false
+   },
+   {
+    "src": "salon-08.webp",
+    "w": 300,
+    "h": 225,
+    "alt": "Komoda RTV w ciemnym fornirze z szufladami",
+    "maly": true,
+    "zrodlo": "009t",
+    "data_odcieta": false
+   }
+  ]
+ },
+ "lazienki": {
+  "nazwa": "Łazienki",
+  "zdjecia": [
+   {
+    "src": "lazienki-01.webp",
+    "w": 657,
+    "h": 877,
+    "alt": "Łazienka z szafką podumywalkową, lustrem z podświetleniem i zabudową pralki",
+    "maly": false,
+    "zrodlo": "002",
+    "data_odcieta": false
+   },
+   {
+    "src": "lazienki-02.webp",
+    "w": 800,
+    "h": 600,
+    "alt": "Biała wisząca szafka łazienkowa z drewnianym uchwytem",
+    "maly": false,
+    "zrodlo": "016",
+    "data_odcieta": false
+   },
+   {
+    "src": "lazienki-03.webp",
+    "w": 600,
+    "h": 800,
+    "alt": "Zaokrąglona szafka pod umywalkę z lustrem w ramie",
+    "maly": false,
+    "zrodlo": "014",
+    "data_odcieta": false
+   },
+   {
+    "src": "lazienki-04.webp",
+    "w": 800,
+    "h": 536,
+    "alt": "Długa zabudowa łazienkowa z szufladami w stylu klasycznym",
+    "maly": false,
+    "zrodlo": "072",
+    "data_odcieta": false
+   },
+   {
+    "src": "lazienki-05.webp",
+    "w": 533,
+    "h": 720,
+    "alt": "Toaletka z lustrami w klasycznej łazience",
+    "maly": false,
+    "zrodlo": "073",
+    "data_odcieta": true
+   }
+  ]
+ },
+ "schody": {
+  "nazwa": "Schody, drzwi i okładziny",
+  "zdjecia": [
+   {
+    "src": "schody-01.webp",
+    "w": 533,
+    "h": 683,
+    "alt": "Drewniane schody i drzwi w okładzinie z fornirowanych paneli",
+    "maly": false,
+    "zrodlo": "049",
+    "data_odcieta": true
+   },
+   {
+    "src": "schody-02.webp",
+    "w": 533,
+    "h": 720,
+    "alt": "Ściana w drewnianej okładzinie z ukrytymi drzwiami przy schodach",
+    "maly": false,
+    "zrodlo": "050",
+    "data_odcieta": true
+   },
+   {
+    "src": "schody-03.webp",
+    "w": 533,
+    "h": 720,
+    "alt": "Drzwi z przeszkleniem w ciemnej drewnianej okładzinie",
+    "maly": false,
+    "zrodlo": "048",
+    "data_odcieta": true
+   },
+   {
+    "src": "schody-04.webp",
+    "w": 533,
+    "h": 720,
+    "alt": "Białe drzwi dwuskrzydłowe z szybami",
+    "maly": false,
+    "zrodlo": "047",
+    "data_odcieta": true
+   },
+   {
+    "src": "schody-05.webp",
+    "w": 600,
+    "h": 800,
+    "alt": "Drewniane schody zabiegowe z okładziną ściany",
+    "maly": false,
+    "zrodlo": "017",
+    "data_odcieta": false
+   },
+   {
+    "src": "schody-06.webp",
+    "w": 600,
+    "h": 800,
+    "alt": "Drewniana zabudowa korytarza i drzwi przy schodach",
+    "maly": false,
+    "zrodlo": "018",
+    "data_odcieta": false
+   },
+   {
+    "src": "schody-07.webp",
+    "w": 600,
+    "h": 800,
+    "alt": "Okładzina ściany z drewna przy schodach",
+    "maly": false,
+    "zrodlo": "019",
+    "data_odcieta": false
+   },
+   {
+    "src": "schody-08.webp",
+    "w": 600,
+    "h": 800,
+    "alt": "Korytarz z drzwiami wewnętrznymi i drewnianą podłogą",
+    "maly": false,
+    "zrodlo": "020",
+    "data_odcieta": false
+   },
+   {
+    "src": "schody-09.webp",
+    "w": 600,
+    "h": 800,
+    "alt": "Drewniane schody prowadzące na piętro",
+    "maly": false,
+    "zrodlo": "021",
+    "data_odcieta": false
+   },
+   {
+    "src": "schody-10.webp",
+    "w": 745,
+    "h": 800,
+    "alt": "Drewniana balustrada schodów z tralkami",
+    "maly": false,
+    "zrodlo": "058",
+    "data_odcieta": false
+   },
+   {
+    "src": "schody-11.webp",
+    "w": 480,
+    "h": 268,
+    "alt": "Biała balustrada z drewnianą poręczą",
+    "maly": false,
+    "zrodlo": "022",
+    "data_odcieta": false
+   },
+   {
+    "src": "schody-12.webp",
+    "w": 448,
+    "h": 800,
+    "alt": "Białe schody z ciemnymi stopniami",
+    "maly": false,
+    "zrodlo": "024",
+    "data_odcieta": false
+   },
+   {
+    "src": "schody-13.webp",
+    "w": 449,
+    "h": 800,
+    "alt": "Panele ścienne z drewna z podświetleniem LED",
+    "maly": false,
+    "zrodlo": "075",
+    "data_odcieta": false
+   }
+  ]
+ },
+ "tapicerowane": {
+  "nazwa": "Meble tapicerowane i sypialnie",
+  "zdjecia": [
+   {
+    "src": "tapicerowane-01.webp",
+    "w": 1600,
+    "h": 769,
+    "alt": "Łóżko z wysokim tapicerowanym zagłówkiem i szafkami nocnymi",
+    "maly": false,
+    "zrodlo": "082",
+    "data_odcieta": false
+   },
+   {
+    "src": "tapicerowane-02.webp",
+    "w": 900,
+    "h": 676,
+    "alt": "Sypialnia z tapicerowanymi panelami ściennymi i szafą",
+    "maly": false,
+    "zrodlo": "007",
+    "data_odcieta": false
+   },
+   {
+    "src": "tapicerowane-03.webp",
+    "w": 800,
+    "h": 600,
+    "alt": "Łóżko z tapicerowaną ramą i zagłówkiem pod skosem",
+    "maly": false,
+    "zrodlo": "025",
+    "data_odcieta": false
+   },
+   {
+    "src": "tapicerowane-04.webp",
+    "w": 800,
+    "h": 600,
+    "alt": "Tapicerowany zagłówek łóżka z szafkami nocnymi",
+    "maly": false,
+    "zrodlo": "027",
+    "data_odcieta": false
+   },
+   {
+    "src": "tapicerowane-05.webp",
+    "w": 600,
+    "h": 800,
+    "alt": "Zagłówek łóżka obity szarą tkaniną",
+    "maly": false,
+    "zrodlo": "028",
+    "data_odcieta": false
+   },
+   {
+    "src": "tapicerowane-06.webp",
+    "w": 600,
+    "h": 800,
+    "alt": "Szafka nocna w szarym wykończeniu przy łóżku",
+    "maly": false,
+    "zrodlo": "026",
+    "data_odcieta": false
+   },
+   {
+    "src": "tapicerowane-07.webp",
+    "w": 600,
+    "h": 800,
+    "alt": "Lustro w tapicerowanej ramie w sypialni",
+    "maly": false,
+    "zrodlo": "032",
+    "data_odcieta": false
+   },
+   {
+    "src": "tapicerowane-08.webp",
+    "w": 600,
+    "h": 800,
+    "alt": "Komoda z szufladami w jasnym, patynowanym wykończeniu",
+    "maly": false,
+    "zrodlo": "033",
+    "data_odcieta": false
+   },
+   {
+    "src": "tapicerowane-09.webp",
+    "w": 800,
+    "h": 600,
+    "alt": "Łóżko z szufladami w podstawie",
+    "maly": false,
+    "zrodlo": "023",
+    "data_odcieta": false
+   },
+   {
+    "src": "tapicerowane-10.webp",
+    "w": 300,
+    "h": 225,
+    "alt": "Łóżko z tapicerowanym zagłówkiem",
+    "maly": true,
+    "zrodlo": "008t",
+    "data_odcieta": false
+   },
+   {
+    "src": "tapicerowane-11.webp",
+    "w": 600,
+    "h": 800,
+    "alt": "Szafka nocna obita jasną tkaniną",
+    "maly": false,
+    "zrodlo": "015",
+    "data_odcieta": false
+   }
+  ]
+ },
+ "stoly": {
+  "nazwa": "Stoły i blaty",
+  "zdjecia": [
+   {
+    "src": "stoly-01.webp",
+    "w": 800,
+    "h": 600,
+    "alt": "Stół z dębowego blatu z czarną stalową wstawką i podstawą",
+    "maly": false,
+    "zrodlo": "061",
+    "data_odcieta": false
+   },
+   {
+    "src": "stoly-02.webp",
+    "w": 600,
+    "h": 800,
+    "alt": "Długi dębowy stół do jadalni z krzesłami",
+    "maly": false,
+    "zrodlo": "062",
+    "data_odcieta": false
+   },
+   {
+    "src": "stoly-03.webp",
+    "w": 800,
+    "h": 464,
+    "alt": "Dębowy stół na stalowych płozach",
+    "maly": false,
+    "zrodlo": "077",
+    "data_odcieta": true
+   },
+   {
+    "src": "stoly-04.webp",
+    "w": 800,
+    "h": 464,
+    "alt": "Blat stołu z drewna z czarnym pasem stali",
+    "maly": false,
+    "zrodlo": "078",
+    "data_odcieta": true
+   },
+   {
+    "src": "stoly-05.webp",
+    "w": 800,
+    "h": 464,
+    "alt": "Okrągły czarny stół na stalowej podstawie w kuchni",
+    "maly": false,
+    "zrodlo": "040",
+    "data_odcieta": true
+   },
+   {
+    "src": "stoly-06.webp",
+    "w": 800,
+    "h": 600,
+    "alt": "Stolik kawowy z drewna i szkła",
+    "maly": false,
+    "zrodlo": "011",
+    "data_odcieta": false
+   },
+   {
+    "src": "stoly-07.webp",
+    "w": 300,
+    "h": 225,
+    "alt": "Stolik kawowy z drewnianą ramą i szklanym blatem",
+    "maly": true,
+    "zrodlo": "010t",
+    "data_odcieta": false
+   }
+  ]
+ },
+ "regaly": {
+  "nazwa": "Biblioteki i regały",
+  "zdjecia": [
+   {
+    "src": "regaly-01.webp",
+    "w": 533,
+    "h": 720,
+    "alt": "Regał na książki od podłogi po sufit przy kuchni",
+    "maly": false,
+    "zrodlo": "039",
+    "data_odcieta": true
+   },
+   {
+    "src": "regaly-02.webp",
+    "w": 800,
+    "h": 464,
+    "alt": "Biblioteka połączona z zabudową kuchenną",
+    "maly": false,
+    "zrodlo": "045",
+    "data_odcieta": true
+   },
+   {
+    "src": "regaly-03.webp",
+    "w": 319,
+    "h": 800,
+    "alt": "Podświetlana wnęka z półkami",
+    "maly": false,
+    "zrodlo": "059",
+    "data_odcieta": false
+   }
+  ]
+ }
+}
