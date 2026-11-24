@@ -4,7 +4,7 @@ Strona jest statyczna (HTML + CSS + JS + zdjęcia WebP) z jednym skryptem PHP do
 
 - Paczka do wgrania: `C:\Users\Admin\Downloads\Tomdar_strona\paczka\` (to samo w `tomdar-paczka.zip`)
 - Źródła i generator: `_src\` (`python -I buduj.py` odbudowuje `paczka\` i `docs\`, `obrazy.py` przygotowuje zdjęcia)
-- Wersja testowa do odbioru: https://disaster26.github.io/tomdar-strona/ (noindex, formularz tylko pokazowy)
+- Wersja testowa do odbioru: https://wylinka-podglad.pl/tomdar-strona/ (noindex, formularz tylko pokazowy)
 
 ## 1. Przed wgraniem (po otrzymaniu FTP / panelu hostingu)
 

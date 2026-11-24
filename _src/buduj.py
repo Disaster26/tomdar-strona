@@ -42,7 +42,7 @@ KAT_KROTKO = {'kuchnie': 'Kuchnie', 'szafy': 'Szafy i garderoby', 'salon': 'Salo
 
 TRYBY = {
     'prod': {'out': os.path.join(KORZEN, 'paczka'), 'url': 'https://tomdar-meble.pl/', 'robots': 'index,follow', 'test': False},
-    'test': {'out': os.path.join(KORZEN, 'docs'), 'url': 'https://disaster26.github.io/tomdar-strona/', 'robots': 'noindex,nofollow', 'test': True},
+    'test': {'out': os.path.join(KORZEN, 'docs'), 'url': 'https://wylinka-podglad.pl/tomdar-strona/', 'robots': 'noindex,nofollow', 'test': True},
 }
 
 STRONY = [
